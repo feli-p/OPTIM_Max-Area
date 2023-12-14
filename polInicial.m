@@ -15,5 +15,6 @@ point(end+1) = pi;
 point(end+1) = 0;
 point(end+1) = pi;
 
+point = point';
 
 end
