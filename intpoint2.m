@@ -100,7 +100,7 @@ while(norm(vcnpo)>tol && iter<maxiter)
     gamma = gamma/2;
 
     iter = iter +1;
-    fprintf('%2.0f %2.8f %2.8f \n', iter, norm(vcnpo), Brcond)
+    %fprintf('%2.0f %2.8f %2.8f \n', iter, norm(vcnpo), Brcond)
 
 
 end
