@@ -31,7 +31,7 @@ p = length(gx);
 mu = ones(p,1);
 z = ones(p,1);
 vcnpo = [gradx-Jx'*mu; -gx+z; mu.*z];
-gamma = 1;
+gamma = 1/2;
 
 B = eye(n);
 
